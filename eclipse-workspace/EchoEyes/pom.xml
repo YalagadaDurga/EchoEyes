@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- The model version for Maven -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project's group ID (unique identifier for the project) -->
+    <groupId>com.example</groupId>
+
+    <!-- Project's artifact ID (unique name for the project) -->
+    <artifactId>echoeyes</artifactId>
+
+    <!-- Project version -->
+    <version>0.0.1-SNAPSHOT</version>
+
+    <!-- Parent Spring Boot starter POM -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.8</version> <!-- Adjust to your preferred version -->
+        <relativePath/> <!-- Lookup parent from repository -->
+    </parent>
+
+    <!-- Project's packaging type -->
+    <packaging>jar</packaging>
+
+    <!-- Project's name -->
+    <name>EchoEyes</name>
+
+    <!-- Project's description -->
+    <description>EchoEyes - A platform to report and track SDG-related issues</description>
+
+    <!-- Properties -->
+    <properties>
+        <java.version>17</java.version> <!-- Adjust based on your Java version -->
+    </properties>
+
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- Spring Boot Starter Web for creating REST APIs -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Starter Data JPA for database integration -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- MySQL Driver for MySQL database connection -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version> <!-- Specify a version -->
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Spring Boot Starter Security for authentication and authorization -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Starter Thymeleaf for server-side rendering of views -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!-- Spring Boot DevTools for hot reloading during development -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Spring Boot Starter Test for unit testing -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.hibernate.validator</groupId>
+    		<artifactId>hibernate-validator</artifactId>
+    		<version>6.2.0.Final</version>
+		</dependency>
+
+	</dependencies>
+
+    <!-- Build section for compiling and packaging -->
+    <build>
+        <plugins>
+            <!-- Spring Boot Maven Plugin for building and running Spring Boot applications -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            
+            <plugin>
+            	<groupId>org.apache.maven.plugins</groupId>
+            	<artifactId>maven-surefire-plugin</artifactId>
+        	</plugin>
+        </plugins>
+    </build>
+
+</project>
