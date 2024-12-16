@@ -1,0 +1,26 @@
+/* adminDashboard.css */
+.admin-dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-dashboard-container h1 {
+    color: #333;
+  }
+  
+  .admin-dashboard-container .card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard-container .card h2 {
+    color: #555;
+  }
+  
+  .admin-dashboard-container .card p {
+    color: #777;
+  }
+  
