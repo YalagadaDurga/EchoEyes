@@ -24,7 +24,7 @@
 ## Screenshots
 
 ### Home Page
-![Home Page](C:\Users\yalag\OneDrive\Desktop\EchoEyes\myapp\src\SS Images\1.jpg)
+![Home Page](src\SS Images\1.jpg)
 
-### Admin Panel
-![Admin Panel](src/images/admin_panel.png)
+### Login Panel
+![Login Panel](src\SS Images\2.jpg)
