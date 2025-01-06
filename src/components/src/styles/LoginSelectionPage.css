@@ -1,0 +1,134 @@
+/* Container for the entire login selection page */
+.login-selection-container {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 450px;
+    font-family: 'Roboto', sans-serif;
+    background: url('../templates/login1.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the background covers the entire container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(21, 16, 16); /* Make the text white for better contrast */
+}
+
+/* Style for labels (to make them black and bold) */
+.login-form label {
+    color: black; /* Black color for the label */
+    font-weight: bold; /* Make the label text bold */
+    display: block; /* Ensure the label is displayed as a block element for proper spacing */
+    margin-bottom: 8px; /* Space between label and input field */
+}
+
+/* Button group for selecting user or admin login */
+.button-group button {
+    background-color: #4CAF50; /* Earthy green for the primary action */
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    margin: 15px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button hover effect */
+.button-group button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Form styling */
+.login-form {
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Input field styling */
+.login-form input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #f1f1f1; /* Light grey background for inputs */
+}
+
+/* Focus effect for input fields */
+.login-form input:focus {
+    border-color: #4CAF50; /* Green border when focused */
+}
+
+/* Button styling for the submit button */
+.login-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff; /* Blue for the submit button */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.login-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4d4d; /* Red color for error messages */
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #fff; /* White color for heading */
+    font-weight: 500;
+}
+
+/* Heading for each form */
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Additional spacing for the form elements */
+input, button {
+    margin-top: 12px;
+}
+
+/* Responsive Design: Ensuring buttons are not too large on mobile */
+@media (max-width: 768px) {
+    .button-group button {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+
+    .login-form {
+        padding: 20px;
+    }
+
+    .login-form input,
+    .login-form button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}

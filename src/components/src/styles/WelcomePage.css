@@ -1,0 +1,53 @@
+/* WelcomePage.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../templates/wel.jpg') no-repeat center center fixed; /* Use absolute path */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 50px; /* Added padding-top to shift content down */
+}
+
+.welcome-container h1 {
+    font-size: 4rem;
+    margin-bottom: 80px;
+    color: #ffffff; /* Heading in white color */
+    margin-top: 0; /* Ensuring the heading stays at the top */
+}
+
+.welcome-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+/* Reduced Button Breadth */
+.welcome-container button {
+    padding: 10px 30px; /* Smaller horizontal padding to decrease button width */
+    font-size: 0.9rem; /* Adjust font size if needed */
+    background-color: #ffffff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: auto; /* Set to auto to allow the button to adjust to its content */
+}
+
+.welcome-container button:hover {
+    background-color: #007bff;
+    color: white;
+}
