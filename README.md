@@ -41,5 +41,16 @@
 ### Water Admin Dashboard
 ![water dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/waterdashboard.jpg.png)
 
+### User reporting an issue related to Road problems
+![road problem](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/roadproblem.jpg.png)
+
+### Road Admin Dashboard - Road admin Login with his credentials and see the issues which are uploaded by user.
+![road dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/roaddashboard.jpg.png)
+
+### User reporting an issue related to Cleanliness problems
+![clean problem](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/cleanproblem.jpg.png)
+
+### Cleanliness Admin Dashboard - Cleanliness admin Login with his credentials and see the issues which are uploaded by user.
+![clean dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/cleandashboard.jpg.png)
 
 
