@@ -7,7 +7,7 @@
 ## **Features**
 - 📸 Upload photos of problems.
 - 📝 Provide detailed descriptions of issues.
-- 📍 Pinpoint the location of the problem.
+- 📍 Location of the problem.
 - 👥 User and admin authentication.
 - 🛠 Separate admin panels for specific issues (e.g., water, cleanliness, potholes, etc.).
 
@@ -54,10 +54,15 @@
 ![clean dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/cleandashboard.jpg.png)
 
 
-### Contact 📧
-For any inquiries or suggestions, feel free to contact me:
-Name: Yalagada Sai Siva Durga Dhanalakshmi
-Email: yalagadadurga357@gmail.com
-GitHub: YalagadaDurga
+### Future Enhancements 🔮
+**Real-Time Notifications**:
+- Add a notification system to alert users and administrators about updates on reported issues.
+- For example, notify users when their reported issue is being addressed or resolved.
+- Notify administrators when a new issue is reported or when an issue requires urgent attention.
 
+## Contact 📧
+For any inquiries or suggestions, feel free to contact me:  
+- **Name**: Yalagada Sai Siva Durga Dhanalakshmi  
+- **Email**: [yalagadadurga357@gmail.com](mailto:yalagadadurga357@gmail.com)  
+- **GitHub**: [YalagadaDurga](https://github.com/YalagadaDurga)
 
