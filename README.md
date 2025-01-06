@@ -24,7 +24,7 @@
 ## Screenshots
 
 ### Home Page
-![Home Page](src\SS Images\1.jpg)
+![Home Page](SS Images\1.jpg)
 
 ### Login Panel
 ![Login Panel](src\SS Images\2.jpg)
