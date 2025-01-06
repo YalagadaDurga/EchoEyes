@@ -27,4 +27,4 @@
 ![Home Page](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/1.jpg.png)
 
 ### Login Panel
-![Login Panel](src\SS Images\2.jpg)
+![Login Panel](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/2.jpg.png)
