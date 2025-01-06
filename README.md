@@ -21,10 +21,3 @@
 - Spring Boot
 - MySQL Database
 
-
-## **Project Setup**
-### **Frontend**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YalagadaDurga/EchoEyes.git
-   cd EchoEyes/frontend
