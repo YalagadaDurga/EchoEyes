@@ -24,7 +24,7 @@
 ## Screenshots
 
 ### Home Page
-![Home Page](SS Images\1.jpg)
+![Home Page](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/1.jpg.png)
 
 ### Login Panel
 ![Login Panel](src\SS Images\2.jpg)
