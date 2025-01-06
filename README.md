@@ -28,3 +28,18 @@
 
 ### Login Panel
 ![Login Panel](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/2.jpg.png)
+
+### User Login for Reporting the issue
+![User Login](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/3.jpg.png)
+
+### User reporting an issue related to water problems i.e.Water stagnation 
+![water problem](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/waterproblem.jpg.png)
+
+### Water Admin Login to see the issues which are uploaded by user/citizen
+![water admin](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/wadmin.jpg.png)
+
+### Water Admin Dashboard
+![water dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/waterdashboard.jpg.png)
+
+
+
