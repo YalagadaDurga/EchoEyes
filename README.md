@@ -21,3 +21,10 @@
 - Spring Boot
 - MySQL Database
 
+## Screenshots
+
+### Home Page
+![Home Page](C:\Users\yalag\OneDrive\Desktop\EchoEyes\myapp\src\SS Images\1.jpg)
+
+### Admin Panel
+![Admin Panel](src/images/admin_panel.png)
