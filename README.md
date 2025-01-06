@@ -21,10 +21,6 @@
 - Spring Boot
 - MySQL Database
 
-### **Libraries**
-- OpenCV (optional if image processing is included)
-
----
 
 ## **Project Setup**
 ### **Frontend**
