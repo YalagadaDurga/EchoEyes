@@ -54,3 +54,10 @@
 ![clean dashboard](https://github.com/YalagadaDurga/EchoEyes/blob/main/SS%20Images/cleandashboard.jpg.png)
 
 
+### Contact 📧
+For any inquiries or suggestions, feel free to contact me:
+Name: Yalagada Sai Siva Durga Dhanalakshmi
+Email: yalagadadurga357@gmail.com
+GitHub: YalagadaDurga
+
+
